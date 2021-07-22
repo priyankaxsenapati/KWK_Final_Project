@@ -344,7 +344,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rwN-A4-3xm"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.75294117650000003" green="0.76862745099999996" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="WiA-0o-JfJ"/>
                 </viewController>
