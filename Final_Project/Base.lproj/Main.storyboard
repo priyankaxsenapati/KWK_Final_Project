@@ -144,21 +144,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 12.50.24 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="jgU-6y-wZr">
-                                        <rect key="frame" x="16" y="197" width="383" height="257"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <gestureRecognizers/>
-                                    </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8kS-h3-p89">
-                                        <rect key="frame" x="204" y="141" width="142" height="34"/>
+                                        <rect key="frame" x="232" y="144" width="142" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="input your location:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyC-gl-Wx2">
-                                        <rect key="frame" x="53" y="148" width="126" height="21"/>
+                                        <rect key="frame" x="53" y="148" width="163" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -171,24 +166,29 @@
                                         <color key="highlightedColor" systemColor="labelColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="food bank info:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45G-KN-S5m">
-                                        <rect key="frame" x="31" y="470" width="244" height="54"/>
+                                        <rect key="frame" x="31" y="492" width="244" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="40"/>
                                         <color key="textColor" red="0.22158178689999999" green="0.35100612040000001" blue="0.17646351460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" systemColor="labelColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contact: Produce List: Local Volunteers: Nutrition:     " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVT-DE-Tav">
-                                        <rect key="frame" x="31" y="532" width="352" height="276"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Atlas Woods UMC Contact: 601-372-8016 Produce List: Canned Food, Fruits, Vegetables   " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVT-DE-Tav">
+                                        <rect key="frame" x="31" y="581" width="343" height="174"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="35"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="29"/>
                                         <color key="textColor" red="0.22158178689999999" green="0.35100612040000001" blue="0.17646351460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" systemColor="labelColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="lz2-eS-B2K">
-                                        <rect key="frame" x="301" y="470" width="73" height="54"/>
+                                        <rect key="frame" x="301" y="492" width="73" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 12.50.24 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="jgU-6y-wZr">
+                                        <rect key="frame" x="16" y="197" width="383" height="268"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
                                     </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="zZK-Ek-iDW"/>
@@ -213,14 +213,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="donate online to organizations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfU-Sc-pOC">
-                                <rect key="frame" x="65" y="114" width="284" height="31"/>
+                                <rect key="frame" x="65" y="111" width="284" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Yr-k0-tKJ">
-                                <rect key="frame" x="20" y="131" width="374" height="148"/>
+                                <rect key="frame" x="20" y="127" width="374" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">1.  The Food Trust: an international organization that works with local community farmers markets and vendors to increase access to healthy, affordable food</string>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="19"/>
@@ -244,7 +244,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wkh-7r-sXY">
-                                <rect key="frame" x="20" y="602" width="374" height="129"/>
+                                <rect key="frame" x="20" y="597" width="374" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">4. Food Finders: an organization that not only ensures food gets where it’s needed, but also helpa businesses save on disposal fees while providing a way to give back to the community</string>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="19"/>
@@ -252,45 +252,73 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3a-P8-PRx">
-                                <rect key="frame" x="80" y="234" width="235" height="30"/>
+                                <rect key="frame" x="80" y="233" width="235" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="17"/>
-                                <state key="normal" title="click to donate to the food trust">
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="23"/>
+                                <state key="normal" title="donate to the food trust">
                                     <color key="titleColor" red="0.22750091480000001" green="0.34893536870000003" blue="0.21297199829999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhO-9h-Fy8">
-                                <rect key="frame" x="42" y="427" width="331" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="17"/>
-                                <state key="normal" title="click to donate to food empowerment project">
-                                    <color key="titleColor" red="0.22750091480000001" green="0.34893536870000003" blue="0.21297199829999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
+                                <connections>
+                                    <action selector="foodTrust:" destination="ilm-JC-WyS" eventType="touchUpInside" id="Hga-ki-Fj3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yZ-1u-S99">
-                                <rect key="frame" x="65" y="575" width="272" height="30"/>
+                                <rect key="frame" x="65" y="574" width="272" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="17"/>
-                                <state key="normal" title="click to donate to wholesome wave">
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="23"/>
+                                <state key="normal" title="donate to wholesome wave">
                                     <color key="titleColor" red="0.22750091480000001" green="0.34893536870000003" blue="0.21297199829999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="wholesome:" destination="ilm-JC-WyS" eventType="touchUpInside" id="rne-9V-rT5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xz2-Nq-nK6">
-                                <rect key="frame" x="71" y="725" width="272" height="30"/>
+                                <rect key="frame" x="65" y="720" width="272" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="17"/>
-                                <state key="normal" title="click to donate to food finders">
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="23"/>
+                                <state key="normal" title="donate to food finders">
                                     <color key="titleColor" red="0.22750091480000001" green="0.34893536870000003" blue="0.21297199829999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="foodFind:" destination="ilm-JC-WyS" eventType="touchUpInside" id="o5K-3D-CLt"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="i can help!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKO-E3-Wp2">
-                                <rect key="frame" x="68" y="29" width="278" height="73"/>
+                                <rect key="frame" x="68" y="24" width="278" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="57"/>
                                 <color key="textColor" red="0.22158178689999999" green="0.35100612040000001" blue="0.17646351460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcr-nB-54w">
+                                <rect key="frame" x="25" y="768" width="365" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
+                                <state key="normal" title="learn about climate changed + global food security here!">
+                                    <color key="titleColor" red="0.33132102270000002" green="0.23453179569999999" blue="0.1302181701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="vid:" destination="ilm-JC-WyS" eventType="touchUpInside" id="U7G-S6-GDK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhO-9h-Fy8">
+                                <rect key="frame" x="33" y="424" width="348" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="23"/>
+                                <state key="normal" title="donate to food empowerment project">
+                                    <color key="titleColor" red="0.22750091480000001" green="0.34893536870000003" blue="0.21297199829999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="foodEmpower:" destination="ilm-JC-WyS" eventType="touchUpInside" id="ylG-6Y-K53"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hXT-xS-HXS"/>
                         <color key="backgroundColor" red="0.75294117647058822" green="0.76862745098039209" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -309,19 +337,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBt-Tz-IWo">
-                                <rect key="frame" x="80" y="258" width="245" height="236"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
-                                <color key="textColor" red="0.33132102270000002" green="0.23453179569999999" blue="0.1302181701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9TG-eI-nte">
                                 <rect key="frame" x="80" y="565" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0a-J6-wHO">
+                                <rect key="frame" x="117" y="751" width="166" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
+                                <state key="normal" title="Do you want to help?">
+                                    <color key="titleColor" red="0.33725490196078434" green="0.44313725490196076" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ilm-JC-WyS" kind="show" id="kng-Wm-dIM"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TyT-uP-MOK">
                                 <rect key="frame" x="104" y="143" width="207" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -342,18 +374,14 @@
                                 <color key="textColor" red="0.22158178689999999" green="0.35100612040000001" blue="0.17646351460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0a-J6-wHO">
-                                <rect key="frame" x="117" y="751" width="166" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBt-Tz-IWo">
+                                <rect key="frame" x="31" y="229" width="339" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
-                                <state key="normal" title="Do you want to help?">
-                                    <color key="titleColor" red="0.33725490196078434" green="0.44313725490196076" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="ilm-JC-WyS" kind="show" id="kng-Wm-dIM"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="25"/>
+                                <color key="textColor" red="0.33132102270000002" green="0.23453179569999999" blue="0.1302181701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9uB-hp-bmb"/>
                         <color key="backgroundColor" red="0.75294117650000003" green="0.76862745099999996" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
