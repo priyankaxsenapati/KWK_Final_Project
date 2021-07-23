@@ -144,6 +144,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 12.50.24 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="jgU-6y-wZr">
+                                        <rect key="frame" x="16" y="197" width="383" height="268"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8kS-h3-p89">
                                         <rect key="frame" x="232" y="144" width="142" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -173,23 +178,42 @@
                                         <color key="textColor" red="0.22158178689999999" green="0.35100612040000001" blue="0.17646351460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" systemColor="labelColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Atlas Woods UMC Contact: 601-372-8016 Produce List: Canned Food, Fruits, Vegetables   " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVT-DE-Tav">
-                                        <rect key="frame" x="31" y="581" width="343" height="174"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="29"/>
-                                        <color key="textColor" red="0.22158178689999999" green="0.35100612040000001" blue="0.17646351460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="highlightedColor" systemColor="labelColor"/>
-                                    </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="lz2-eS-B2K">
                                         <rect key="frame" x="301" y="492" width="73" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 12.50.24 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="jgU-6y-wZr">
-                                        <rect key="frame" x="16" y="197" width="383" height="268"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MR8-oA-bXl">
+                                        <rect key="frame" x="153" y="343" width="44" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <gestureRecognizers/>
-                                    </imageView>
+                                        <state key="normal" image="588891ecbc2fc2ef3a1860a4"/>
+                                        <connections>
+                                            <action selector="atlas:" destination="74e-4k-SPh" eventType="touchUpInside" id="VRk-3W-5pm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPg-Ca-7Wq">
+                                        <rect key="frame" x="193" y="300" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="588891ecbc2fc2ef3a1860a4"/>
+                                        <connections>
+                                            <action selector="gateway:" destination="74e-4k-SPh" eventType="touchUpInside" id="geh-bZ-rii"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAb-s0-v1a">
+                                        <rect key="frame" x="236" y="285" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="588891ecbc2fc2ef3a1860a4"/>
+                                        <connections>
+                                            <action selector="keeper:" destination="74e-4k-SPh" eventType="touchUpInside" id="mqg-71-C2O"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  " lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVT-DE-Tav">
+                                        <rect key="frame" x="30" y="581" width="355" height="174"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="22"/>
+                                        <color key="textColor" red="0.33132102270000002" green="0.23453179569999999" blue="0.1302181701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" systemColor="labelColor"/>
+                                    </label>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="zZK-Ek-iDW"/>
                                 <color key="backgroundColor" red="0.75294117650000003" green="0.76862745099999996" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -199,10 +223,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="nfS-GP-G4R"/>
+                    <connections>
+                        <outlet property="textBox" destination="gVT-DE-Tav" id="HOZ-Py-h9g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="phx-sn-eBQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="1283.7053571428571"/>
+            <point key="canvasLocation" x="18.840579710144929" y="835.71428571428567"/>
         </scene>
         <!--Can Help View Controller-->
         <scene sceneID="50s-59-S9Y">
@@ -300,7 +327,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
-                                <state key="normal" title="learn about climate changed + global food security here!">
+                                <state key="normal" title="learn about climate change + global food security here!">
                                     <color key="titleColor" red="0.33132102270000002" green="0.23453179569999999" blue="0.1302181701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -440,7 +467,7 @@
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.37590542220000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Most food deserts have outside eating options limited to fast food chains which sell overly processed meat and dairy based foods which have high fat, sugar and salt content. </string>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="14"/>
-                                <color key="textColor" red="0.22158178689999999" green="0.35100612040000001" blue="0.17646351460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33132102270000002" green="0.23453179569999999" blue="0.1302181701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0c-xp-SNg">
@@ -504,6 +531,7 @@
         <segue reference="kng-Wm-dIM"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="588891ecbc2fc2ef3a1860a4" width="400" height="400"/>
         <image name="Food-Desert" width="681" height="434"/>
         <image name="Screen Shot 2021-07-22 at 12.50.24 PM.png" width="1440" height="900"/>
         <image name="SeekPng.com_cactus-vector-png_482479" width="485" height="936"/>
