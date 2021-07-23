@@ -19,6 +19,10 @@
 		99C39EA826A896BB0048CF5F /* LearnAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C39EA726A896BB0048CF5F /* LearnAboutViewController.swift */; };
 		99C39EAD26A896CB0048CF5F /* NeedHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C39EAC26A896CB0048CF5F /* NeedHelpViewController.swift */; };
 		99C39EB226A896D70048CF5F /* CanHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C39EB126A896D70048CF5F /* CanHelpViewController.swift */; };
+		99C39EBB26AA753E0048CF5F /* UnderstandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C39EBA26AA753E0048CF5F /* UnderstandViewController.swift */; };
+		99C39EC526AA78420048CF5F /* food.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 99C39EC426AA78420048CF5F /* food.mp4 */; };
+		99C39EC626AA78420048CF5F /* food.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 99C39EC426AA78420048CF5F /* food.mp4 */; };
+		99C39EC726AA78420048CF5F /* food.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 99C39EC426AA78420048CF5F /* food.mp4 */; };
 		F759D03426A9F5FD00DC8BDF /* Screen Shot 2021-07-22 at 12.50.24 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F759D03326A9F5FC00DC8BDF /* Screen Shot 2021-07-22 at 12.50.24 PM.png */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,8 @@
 		99C39EA726A896BB0048CF5F /* LearnAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAboutViewController.swift; sourceTree = "<group>"; };
 		99C39EAC26A896CB0048CF5F /* NeedHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedHelpViewController.swift; sourceTree = "<group>"; };
 		99C39EB126A896D70048CF5F /* CanHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanHelpViewController.swift; sourceTree = "<group>"; };
+		99C39EBA26AA753E0048CF5F /* UnderstandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandViewController.swift; sourceTree = "<group>"; };
+		99C39EC426AA78420048CF5F /* food.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = food.mp4; path = ../../../../Downloads/food.mp4; sourceTree = "<group>"; };
 		F759D03326A9F5FC00DC8BDF /* Screen Shot 2021-07-22 at 12.50.24 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-22 at 12.50.24 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +119,7 @@
 				99B0867126A767FE002503F3 /* SceneDelegate.swift */,
 				99B0867326A767FE002503F3 /* ViewController.swift */,
 				99B0867526A767FE002503F3 /* Main.storyboard */,
+				99C39EBA26AA753E0048CF5F /* UnderstandViewController.swift */,
 				F759D03326A9F5FC00DC8BDF /* Screen Shot 2021-07-22 at 12.50.24 PM.png */,
 				99C39EAC26A896CB0048CF5F /* NeedHelpViewController.swift */,
 				99C39EB126A896D70048CF5F /* CanHelpViewController.swift */,
@@ -120,6 +127,7 @@
 				99B0867B26A767FF002503F3 /* Assets.xcassets */,
 				99B0867D26A767FF002503F3 /* LaunchScreen.storyboard */,
 				99B0868026A767FF002503F3 /* Info.plist */,
+				99C39EC426AA78420048CF5F /* food.mp4 */,
 				99B0867826A767FE002503F3 /* Final_Project.xcdatamodeld */,
 			);
 			path = Final_Project;
@@ -249,6 +257,7 @@
 				F759D03426A9F5FD00DC8BDF /* Screen Shot 2021-07-22 at 12.50.24 PM.png in Resources */,
 				99B0867F26A767FF002503F3 /* LaunchScreen.storyboard in Resources */,
 				99B0867C26A767FF002503F3 /* Assets.xcassets in Resources */,
+				99C39EC526AA78420048CF5F /* food.mp4 in Resources */,
 				99B0867726A767FE002503F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C39EC626AA78420048CF5F /* food.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C39EC726AA78420048CF5F /* food.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C39EBB26AA753E0048CF5F /* UnderstandViewController.swift in Sources */,
 				99C39EA826A896BB0048CF5F /* LearnAboutViewController.swift in Sources */,
 				99B0867426A767FE002503F3 /* ViewController.swift in Sources */,
 				99B0867026A767FE002503F3 /* AppDelegate.swift in Sources */,
